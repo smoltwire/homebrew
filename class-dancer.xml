@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dancer</name>
+		<update version="0.1.0">
+		C:\Users\User\Documents\5e Character Builder\custom\user
+			<file name="class-dancer.xml" />
+		</update>
+	</info>
+	
+	<element name="DANCER" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_DANCER">
+		<description>
+			<p>The swayer of the night but refined in the day. Only in a tavern brawl would you ever see these graceful devil's show there true colors with a blade.</p>
+			<h4>CREATING A Dancer</h4>
+			<p>When creating a dancer, think about your character’s background and purpose for dancing. Did they want to dance, or were they forced into it from circumstance? What drives your character to go beyond a normal dancer, and actually fight? Talk to your DM about the role dancers might have in your campaign's societies.</p>
+			<p class="indent">Did you serve an apprenticeship, studying under a master, following the more experienced DANCER until you were ready to strike out on your own? Or did you attend a college where you studied DANCERic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering DANCER who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a dancer quickly by following these suggestions. First, put your highest ability score in Charisma, followed by Dexterity. Second, choose the entertainer background. Finally, choose a rapier, 2 daggers, an entertainer's pack, and a dancer's costume.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a dancer, you gain the following class features.</p>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per Dancer level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per dancer level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor</li>
+				<li><strong>Weapons:</strong> Simple weapons, shortswords, rapiers, scimitars, whips</li>
+				<li><strong>Tools:</strong> One musical instrument of your choice.</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Charisma</li>
+				<li><strong>Skills:</strong> Choose three from Acrobatics, Arcana, Deception, Intimidation, Perception, Performance, Persuasion, Sleight of Hand.</li>
+			</ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a rapier, (b) a scimitar, or (c) any simple weapon</li>
+				<li>(a) 10 darts or (b) 2 daggers</li>
+				<li>(a) an entertainer's pack or (b) a diplomat's pack</li>
+				<li>(a) A dancer's costume or (b) an arcane focus</li>
+			</ul>
+			<h5 class="caption">THE DANCER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-5">Dances Known</td><td class="col-5">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td>></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Unarmored Defense, Dancing Steps</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Spellcasting, Dancing</td><td>1</td><td>5</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Dancing Colleges</td><td>1</td><td>6</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>1</td><td>7</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Dancing Movement</td><td>2</td><td>8</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Dancing College feature</td><td>2</td><td>9</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Uncanny Dodge</td><td>2</td><td>10</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>2</td><td>11</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>3</td><td>12</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Dancing College Feature</td><td>3</td><td>13</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Evasion</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Untouched by Lust </td><td>3</td><td>16</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Dancing College feature</td><td>3</td><td>17</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Fluidity of Body</td><td>3</td><td>18</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Unhurt by Words</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Godlike Beauty</td><td>5</td><td>23</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_STEPS" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_SPELLCASTING" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_UNARMORED_DEFENSE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_MOVEMENT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_UNCANNY_DODGE" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_COLLEGES" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_EVASION" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_ABILITYSCOREIMPROVEMENT_DANCER" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_UNTOUCHED_BY_LUST" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_UNHURT_BY_WORDS" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_DANCER_GODLIKE_BEAUTY" />
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="short">An alluring artist whose body embodies the passion of the gods.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<select type="Proficiency" name="Musical Instrument (DANCER)" supports="Musical Instrument" number="1" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<select type="Proficiency" name="Skill Proficiency (DANCER)" supports="Skill,DANCER" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_DANCER"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_STEPS" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_SPELLCASTING" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_UNARMORED_DEFENSE" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_MOVEMENT" level="5"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_COLLEGES" level="3"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_ABILITYSCOREIMPROVEMENT_DANCER" level="4"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_COLLEGE_FEATURE" level="6"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_FLUIDITY_OF_BODY" level="15"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_UNHURT_BY_WORDS" level="18"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_GODLIKE_BEAUTY" level="20"/>
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_DANCER">
+			<prerequisite>Charisma 13</prerequisite>
+			<requirements>[cha:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, one skill of your choice, one musical instrument of your choice</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<select type="Proficiency" name="Skill Proficiency (DANCER)" supports="Skill,DANCER" number="1" />
+				<select type="Proficiency" name="Musical Instrument (DANCER)" supports="Musical Instrument" number="1" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="DANCING STEPS" type="Class Feature" source="BLACKBANDERS HOMEBREW" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCING_STEPS">
+		<description>
+			<p>Your acrobatic and seductive movement allows you to move better than most. You can take a bonus action on each of your turns in combat. This bonus action can be used to take the Dash or Disengage action.</p>
+			<p class="indent">you gain a Dancing Steps dice equal to d{dice size}. Once per turn of combat you may add a dancer step dice to your dash/disengage saving throw. Also you can now make the dash or disengage action as a bonus/free action if you succeed a dc saving throw.
+			Once every turn, the creature can roll the die for a bonus Dash or Disengage action. The creature can wait until after it rolls the d20 before deciding to use the Dancing Steps die, but must decide before the GM says whether the roll succeeds or fails. A creature can have only one Dancing Steps die at a time.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{DANCING STEPS:count}}/Long Rest">
+			<description>Casting creature gains one DANCING STEPS die, a d{{DANCING STEPS:dice}}.
+		Once each turn in combat, the creature can roll the die for a Dash or Disengage action.</description>
+		</sheet>
+		<rules>
+			<stat name="DANCING STEPS:count" value="1" bonus="DANCERic inspiration"/>
+			<stat name="DANCING STEPS:count" value="charisma:modifier" bonus="DANCERic inspiration"/>
+
+			<stat name="DANCING STEPS:dice" value="6" bonus="DANCERic inspiration" />
+			<stat name="DANCING STEPS:dice" value="8" bonus="DANCERic inspiration" level="5" />
+			<stat name="DANCING STEPS:dice" value="10" bonus="DANCERic inspiration" level="10" />
+			<stat name="DANCING STEPS:dice" value="12" bonus="DANCERic inspiration" level="15" />
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="Blackbanders Homebrew" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_SPELLCASTING_DANCER">
+		<description>
+			<p>At 2nd level, you have learned how to harness the power of your dancing, turning your wishes and wills into pure magic.</p>
+			<h5>CANTRIPS</h5>
+			<p>You know two cantrips of your choice from the Bard spell list. You learn additional cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Dancer table.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Dancer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</p>
+			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
+			<p>You know four 1st-level spells of your choice from the DANCER spell list.</p>
+			<p class="indent">The Spells Known column of the DANCER table shows when you learn more DANCER spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the DANCER spells you know and replace it with another spell from the DANCER spell list, which also must be of a level for which you have spell slots.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Charisma is your spellcasting ability for your Dancer spells. Your magic comes from the beauty and elegance of your dancing and movements. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a dancer spell you cast and when making an attack roll with one</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast any DANCER spell you know as a ritual if that spell has the ritual tag.</p>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>You can use a costume or a musical instrument as a spellcasting focus for your dancing spells.</p>
+		</description>
+		<sheet display="false">
+			<description>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music.</description>
+		</sheet>
+		<spellcasting name="DANCER" ability="Charisma" prepare="false" allowReplace="true">
+			<list>DANCER</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+
+			<stat name="DANCER:spellcasting:slots:1" value="2" level="1" />
+			<stat name="DANCER:spellcasting:slots:1" value="1" level="2" />
+			<stat name="DANCER:spellcasting:slots:1" value="1" level="3" />
+			<stat name="DANCER:spellcasting:slots:2" value="2" level="3" />
+			<stat name="DANCER:spellcasting:slots:2" value="1" level="4" />
+			<stat name="DANCER:spellcasting:slots:3" value="2" level="5" />
+			<stat name="DANCER:spellcasting:slots:3" value="1" level="6" />
+			<stat name="DANCER:spellcasting:slots:4" value="1" level="7" />
+			<stat name="DANCER:spellcasting:slots:4" value="1" level="8" />
+			<stat name="DANCER:spellcasting:slots:4" value="1" level="9" />
+			<stat name="DANCER:spellcasting:slots:5" value="1" level="9" />
+			<stat name="DANCER:spellcasting:slots:5" value="1" level="10" />
+			<stat name="DANCER:spellcasting:slots:5" value="1" level="18" />
+			<stat name="DANCER:spellcasting:slots:6" value="1" level="11" />
+			<stat name="DANCER:spellcasting:slots:6" value="1" level="19" />
+			<stat name="DANCER:spellcasting:slots:7" value="1" level="13" />
+			<stat name="DANCER:spellcasting:slots:7" value="1" level="20" />
+			<stat name="DANCER:spellcasting:slots:8" value="1" level="15" />
+			<stat name="DANCER:spellcasting:slots:9" value="1" level="17" />
+
+			<select type="Spell" name="Cantrip (DANCER)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="DANCER" />
+			<select type="Spell" name="Cantrip (DANCER)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Cantrip (DANCER)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="4" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="1" spellcasting="DANCER" />
+			<select type="Spell" name="Spellcasting (DANCER)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="1" spellcasting="DANCER" />
+		</rules>
+	</element>
+	<element name="Jack of All Trades" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_JACK_OF_ALL_TRADES">
+		<description>
+			<p>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</p>
+		</description>
+		<sheet display="false">
+			<description>You can add half your proficiency bonus ({{proficiency:half}}), rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="proficiency:half" bonus="proficiency" />
+			<stat name="acrobatics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS"/>
+			<stat name="animal handling:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING"/>
+			<stat name="arcana:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
+			<stat name="athletics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS"/>
+			<stat name="deception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_DECEPTION"/>
+			<stat name="history:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_HISTORY"/>
+			<stat name="insight:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INSIGHT"/>
+			<stat name="intimidation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+			<stat name="investigation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+			<stat name="medicine:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_MEDICINE"/>
+			<stat name="nature:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_NATURE"/>
+			<stat name="perception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION"/>
+			<stat name="performance:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+			<stat name="persuasion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERSUASION"/>
+			<stat name="religion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_RELIGION"/>
+			<stat name="sleight of hand:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND"/>
+			<stat name="stealth:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_STEALTH"/>
+			<stat name="survival:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL"/>
+		</rules>
+	</element>
+	<element name="Song of Rest" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_SONG_OF_REST">
+		<description>
+			<p>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.</p>
+			<p class="indent">The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</p>
+		</description>
+		<sheet>
+			<description>You or any friendly creatures who can hear your performance regain hp at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d{{song-of-rest:dice:size}} hit points.</description>
+		</sheet>
+		<rules>
+			<stat name="song-of-rest:dice:size" value="6" bonus="song-of-rest" />
+			<stat name="song-of-rest:dice:size" value="8" bonus="song-of-rest" level="9" />
+			<stat name="song-of-rest:dice:size" value="10" bonus="song-of-rest" level="13" />
+			<stat name="song-of-rest:dice:size" value="12" bonus="song-of-rest" level="17" />
+		</rules>
+	</element>
+	<element name="DANCER College" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_DANCER_COLLEGE">
+		<description>
+			<p>At 3rd level, you delve into the advanced techniques of a DANCER college of your choice, such as the College of Lore. Your choice grants you features at 3rd level and again at 6th and 14th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="DANCER College" supports="DANCER College" level="3"/>
+		</rules>
+	</element>
+	<element name="Expertise" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_EXPERTISE">
+		<description>
+			<p>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
+			<p class="indent">At 10th level, you can choose another two skill proficiencies to gain this benefit.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Expertise (DANCER 3)" level="3" number="2" supports="Expertise,Skill"/>
+			<select type="Class Feature" name="Expertise (DANCER 10)" level="10" number="2" supports="Expertise,Skill"/>
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_ABILITYSCOREIMPROVEMENT_DANCER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (DANCER 4)" supports="Improvement Option,DANCER,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (DANCER 8)" supports="Improvement Option,DANCER,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (DANCER 12)" supports="Improvement Option,DANCER,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (DANCER 16)" supports="Improvement Option,DANCER,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (DANCER 19)" supports="Improvement Option,DANCER,19" level="19" />
+		</rules>
+	</element>
+	<element name="Font of Inspiration" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_FONT_OF_INSPIRATION">
+		<description>
+			<p>Beginning when you reach 5th level, you regain all of your expended uses of DANCERic Inspiration when you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>You regain all of your expended uses of DANCERic Inspiration when you finish a short or long rest.</description>
+		</sheet>
+	</element>
+	<element name="Countercharm" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_COUNTERCHARM">
+		<description>
+			<p>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).</p>
+		</description>
+		<sheet action="Action">
+			<description>You can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed.</description>
+		</sheet>
+	</element>
+	<element name="Magical Secrets" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_MAGICAL_SECRETS">
+		<description>
+			<p>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the DANCER table, or a cantrip.</p>
+			<p class="indent">The chosen spells count as DANCER spells for you and are included in the number in the Spells Known column of the DANCER table.</p>
+			<p class="indent">You learn two additional spells from any classes at 14th level and again at 18th level.</p>
+		</description>
+		<sheet display="false">
+			<description>You have plundered magical knowledge from a wide spectrum of disciplines.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="DANCER"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="14" spellcasting="DANCER"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="18" spellcasting="DANCER"/>
+		</rules>
+	</element>
+	<element name="Superior Inspiration" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DANCER_SUPERIOR_INSPIRATION">
+		<description>
+			<p>At 20th level, when you roll initiative and have no uses of DANCERic Inspiration left, you regain one use.</p>
+		</description>
+		<sheet>
+			<description>When you roll initiative and have no uses of DANCERic Inspiration left, you regain one use.</description>
+		</sheet>
+	</element>
+
+	<!-- College of Lore -->
+	<element name="College of Lore" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_LORE">
+		<supports>DANCER College</supports>
+		<description>
+			<p>DANCERs of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these DANCERs use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.</p>
+			<p class="indent">The loyalty of these DANCERs lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a DANCER as a herald or advisor knows that the DANCER would rather be honest than politic.</p>
+			<p class="indent">The college’s members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_BONUS_PROFICIENCIES" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_CUTTING_WORDS" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_ADDITIONAL_MAGICAL_SECRETS" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_PEERLESS_SKILL" />
+		</description>
+		<sheet display="false">
+			<description>DANCERs of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_BONUS_PROFICIENCIES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_CUTTING_WORDS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_ADDITIONAL_MAGICAL_SECRETS" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_PEERLESS_SKILL" level="14" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_BONUS_PROFICIENCIES">
+		<description>
+			<p>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Bonus Proficiencies (DANCER)" supports="Skill,DANCER" number="3" level="3"/>
+		</rules>
+	</element>
+	<element name="Cutting Words" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_CUTTING_WORDS">
+		<description>
+			<p>Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of DANCERic Inspiration, rolling a DANCERic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t hear you or if it’s immune to being charmed.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of DANCERic Inspiration, rolling a DANCERic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t hear you or if it’s immune to being charmed.</description>
+		</sheet>
+	</element>
+	<element name="Additional Magical Secrets" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_ADDITIONAL_MAGICAL_SECRETS">
+		<description>
+			<p>At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the DANCER table, or a cantrip. The chosen spells count as DANCER spells for you but don’t count against the number of DANCER spells you know.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Additional Magic Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="6" spellcasting="DANCER"/>
+		</rules>
+	</element>
+	<element name="Peerless Skill" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_LORE_PEERLESS_SKILL">
+		<description>
+			<p>Starting at 14th level, when you make an ability check, you can expend one use of DANCERic Inspiration. Roll a DANCERic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.</p>
+		</description>
+		<sheet>
+			<description>When you make an ability check, you can expend one use of DANCERic Inspiration. Roll a DANCERic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.</description>
+		</sheet>
+	</element>
+
+	<!-- College of Valor -->
+	<element name="College of Valor" type="Archetype" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_VALOR">
+		<supports>DANCER College</supports>
+		<description>
+			<p>DANCERs of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These DANCERs gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn’t pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_BONUS_PROFICIENCIES" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_COMBAT_INSPIRATION" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_EXTRA_ATTACK" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_BATTLE_MAGIC" />
+		</description>
+		<sheet display="false">
+			<description>DANCERs of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_BONUS_PROFICIENCIES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_COMBAT_INSPIRATION" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_EXTRA_ATTACK" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_BATTLE_MAGIC" level="14" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_BONUS_PROFICIENCIES">
+		<description>
+			<p>When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+		</rules>
+	</element>
+	<element name="Combat Inspiration" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_COMBAT_INSPIRATION">
+		<description>
+			<p>Also at 3rd level, you learn to inspire others in battle. A creature that has a DANCERic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the DANCERic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</p>
+		</description>
+		<sheet>
+			<description>A creature that has a DANCERic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the DANCERic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</description>
+		</sheet>
+	</element>
+	<element name="Extra Attack" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_EXTRA_ATTACK">
+		<description>
+			<p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="6" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Battle Magic" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DANCER_VALOR_BATTLE_MAGIC">
+		<description>
+			<p>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a DANCER spell, you can make one weapon attack as a bonus action.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>When you use your action to cast a DANCER spell, you can make one weapon attack.</description>
+		</sheet>
+	</element>
+</elements>
